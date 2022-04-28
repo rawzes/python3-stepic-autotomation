@@ -3,6 +3,7 @@ import pytest
 
 link = 'http://selenium1py.pythonanywhere.com/'
 
+
 # Допустимые значения: “function”, “class”, “module”, “session”.
 @pytest.fixture(scope='function')
 def browser():
